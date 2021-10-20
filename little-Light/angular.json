@@ -120,5 +120,8 @@
       }
     }
   },
-  "defaultProject": "little-Light"
+  "defaultProject": "little-Light",
+  "cli": {
+    "analytics": "eabbaaad-413b-48ec-bfee-fae4f670f385"
+  }
 }
