@@ -2,10 +2,12 @@ import { Routes, RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
 import { HomePageComponent } from './pages/home-page/home-page.component';
 import { FormPageComponent } from './pages/form-page/form-page.component';
+import { HomePageSliderComponent } from './image-slider/image-slider.component';
 
 const appRoutes: Routes = [
     { path: 'home', component:HomePageComponent },
-    { path: 'form', component: FormPageComponent}
+    { path: 'form', component: FormPageComponent},
+    { path: 'banner', component: HomePageSliderComponent}
 ]
 
 @NgModule ({
@@ -13,4 +15,4 @@ const appRoutes: Routes = [
     exports: [RouterModule]
 })
 export class AppRoutingModule {}
-export const routingComponents = [ FormPageComponent, HomePageComponent]
+export const routingComponents = [ FormPageComponent, HomePageComponent, HomePageSliderComponent]
