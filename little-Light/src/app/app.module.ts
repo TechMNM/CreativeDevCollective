@@ -7,6 +7,7 @@ import { RegisterCtaComponent } from './components/register-cta/register-cta.com
 import { CardRowComponent } from './components/card-row/card-row.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { RegistrationPageComponent } from './pages/registration-page/registration-page.component';
+import { RegistrationOverviewComponent } from './components/registration-overview/registration-overview.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { RegistrationPageComponent } from './pages/registration-page/registratio
     RegisterCtaComponent,
     CardRowComponent,
     FooterComponent,
-    RegistrationPageComponent
+    RegistrationPageComponent,
+    RegistrationOverviewComponent
   ],
   imports: [
     BrowserModule,
