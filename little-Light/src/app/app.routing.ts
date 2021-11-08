@@ -1,12 +1,13 @@
 import { Routes, RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
 import { HomePageComponent } from './pages/home-page/home-page.component';
-import { FormPageComponent } from './pages/form-page/form-page.component';
+// import { FormPageComponent } from './pages/form-page/form-page.component';
 import { HomePageSliderComponent } from './image-slider/image-slider.component';
+import { RegistrationPageComponent } from './pages/registration-page/registration-page.component';
 
 const appRoutes: Routes = [
     { path: '', component:HomePageComponent },
-    { path: 'form', component: FormPageComponent},
+    { path: 'registration', component: RegistrationPageComponent},
     { path: 'banner', component: HomePageSliderComponent}
 ]
 
@@ -15,4 +16,4 @@ const appRoutes: Routes = [
     exports: [RouterModule]
 })
 export class AppRoutingModule {}
-export const routingComponents = [ FormPageComponent, HomePageComponent, HomePageSliderComponent]
+export const routingComponents = [ RegistrationPageComponent, HomePageComponent, HomePageSliderComponent]

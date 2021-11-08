@@ -6,6 +6,7 @@ import { OverviewCardComponent } from './components/overview-card/overview-card.
 import { RegisterCtaComponent } from './components/register-cta/register-cta.component';
 import { CardRowComponent } from './components/card-row/card-row.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { RegistrationPageComponent } from './pages/registration-page/registration-page.component';
 
 @NgModule({
   declarations: [
@@ -14,11 +15,12 @@ import { FooterComponent } from './components/footer/footer.component';
     OverviewCardComponent,
     RegisterCtaComponent,
     CardRowComponent,
-    FooterComponent
+    FooterComponent,
+    RegistrationPageComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule, 
   ],
   providers: [],
   bootstrap: [AppComponent]
