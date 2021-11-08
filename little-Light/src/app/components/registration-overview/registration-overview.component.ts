@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RegistrationOverviewComponent implements OnInit {
 
+  title01 = 'APPLY';
+  title02 = 'Today'
   constructor() { }
 
   ngOnInit(): void {
