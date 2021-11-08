@@ -1,0 +1,36 @@
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  .grade-section 
+  {
+   /* display: flex;
+   flex-direction: column; 
+   align-content: space-between; */
+   border: solid 1px #BF258C;
+   border-radius: 2px;
+   padding: 10px;
+  }
+
+  .grade-fields {
+      padding: 20px 70px;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: column; 
+    align-content: space-between;
+  }
+
+  @media(min-width:768px) {
+    .row {
+        display: flex;
+        flex-direction: row; 
+      }  
+  }
