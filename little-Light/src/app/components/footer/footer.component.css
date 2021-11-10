@@ -1,14 +1,28 @@
 .footer {
     display: flex;
-    flex-direction: row;
-    align-content: space-between;
+    flex-direction: column;
     background: #A1CC4D;
     color: white;
-    padding: 0px 30px 20px;
+    padding: 0px 10px 20px;
+}
+
+@media(min-width:768px) {
+    .footer {
+        display: flex;
+        flex-direction: row;
+        align-content: space-between;
+        padding: 0px 30px 20px;
+    } 
+
+    .footer-item {
+        padding: 70px 82px;
+        display: flex;
+        flex-direction: column;
+        }
 }
 
 .footer-item {
-padding: 70px 82px;
+padding: 23px 26px;
 display: flex;
 flex-direction: column;
 }
