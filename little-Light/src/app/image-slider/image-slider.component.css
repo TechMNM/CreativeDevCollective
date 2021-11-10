@@ -102,3 +102,16 @@ nav a:hover {
   margin: 10px;
 } */
 
+.carousel-indicators > li {
+  border-radius: 50%;
+  height: 11px;
+  width: 11px;
+
+}
+
+@media (min-width: 768px ){
+  .carousel-indicators > li {
+  height: 17px;
+  width: 17px;
+  }
+}
