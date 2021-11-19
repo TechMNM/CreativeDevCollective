@@ -10,6 +10,15 @@ import { RegistrationPageComponent } from './pages/registration-page/registratio
 import { RegistrationOverviewComponent } from './components/registration-overview/registration-overview.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { LazyLoadImageModule } from 'ng-lazyload-image';
+import { MatSliderModule } from '@angular/material/slider';
+import { HttpClientModule } from '@angular/common/http';
+import { ClassroomSliderComponent } from './components/classroom-slider/classroom-slider.component';
+import { BabyclassComponent } from './pages/classrooms/babyclass/babyclass.component';
+import { ToddlerclassComponent } from './pages/classrooms/toddlerclass/toddlerclass.component';
+import { Preschoolclass01Component } from './pages/classrooms/preschoolclass01/preschoolclass01.component';
+import { Preschoolclass02Component } from './pages/classrooms/preschoolclass02/preschoolclass02.component';
+import { GraderrComponent } from './pages/classrooms/graderr/graderr.component';
+import { GraderComponent } from './pages/classrooms/grader/grader.component';
 
 @NgModule({
   declarations: [
@@ -20,13 +29,22 @@ import { LazyLoadImageModule } from 'ng-lazyload-image';
     CardRowComponent,
     FooterComponent,
     RegistrationPageComponent,
-    RegistrationOverviewComponent
+    RegistrationOverviewComponent,
+    ClassroomSliderComponent,
+    BabyclassComponent,
+    ToddlerclassComponent,
+    Preschoolclass01Component,
+    Preschoolclass02Component,
+    GraderrComponent,
+    GraderComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule, 
     NgbModule,
-    LazyLoadImageModule
+    LazyLoadImageModule, 
+    MatSliderModule, 
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

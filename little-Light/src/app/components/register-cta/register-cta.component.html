@@ -1,10 +1,13 @@
 <section class="register-cta">
-      <div class="cta-image">
-        <div class="cta-text">
-          <h1 style="font-size:50px">Lorem ipsum.</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer porta facilisis accumsan</p>
-          <button>Register</button>
-        </div>
-      </div>
-
-</section>    
+  <div class="register-cta__cta-image">
+    <div class="register-cta__cta-text">
+      <ng-container *ngFor="let data of ctaData">
+        <ng-container [ngSwitch]="data.type">
+          <h1 class="register-cta__heading" *ngSwitchCase="'header'">{{ data.content }}</h1>
+          <p class="register-cta__paragraph" *ngSwitchCase="'paragraph'">{{ data.content }}</p>
+          <button class="register-cta__cta-button" *ngSwitchCase="'button'">{{ data.content }}</button>
+        </ng-container>
+      </ng-container>
+    </div>
+  </div>
+</section>

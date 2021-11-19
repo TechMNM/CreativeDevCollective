@@ -1,0 +1,18 @@
+[
+    {
+        "type": "header",
+        "content": "Welcome To"
+    },
+    {
+        "type": "sub-header",
+        "content": "Light Light Academy"
+    },
+    {
+        "type": "image",
+        "url": "/assets/images/homeoverview-image.png"
+    },
+    {
+        "type": "paragraph",
+        "content": "Little Light Academy is Gods vision for Crystal Park. It is a Fun and Interactive Learning Centre for Children. Little Light Academy is a child care facility which is committed to providing a positive and stimulating environment that is warm and inviting for children to develop. <br/> We have an open door policy and welcome parents visits anytime.  (COVID-19 protocols observed)"
+    }
+]
