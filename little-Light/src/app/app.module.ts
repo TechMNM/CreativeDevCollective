@@ -8,9 +8,9 @@ import { CardRowComponent } from './components/card-row/card-row.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { RegistrationPageComponent } from './pages/registration-page/registration-page.component';
 import { RegistrationOverviewComponent } from './components/registration-overview/registration-overview.component';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { LazyLoadImageModule } from 'ng-lazyload-image';
-import { MatSliderModule } from '@angular/material/slider';
+// import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+// import { LazyLoadImageModule } from 'ng-lazyload-image';
+// import { MatSliderModule } from '@angular/material/slider';
 import { HttpClientModule } from '@angular/common/http';
 import { ClassroomSliderComponent } from './components/classroom-slider/classroom-slider.component';
 import { BabyclassComponent } from './pages/classrooms/babyclass/babyclass.component';
@@ -41,9 +41,9 @@ import { GraderComponent } from './pages/classrooms/grader/grader.component';
   imports: [
     BrowserModule,
     AppRoutingModule, 
-    NgbModule,
-    LazyLoadImageModule, 
-    MatSliderModule, 
+    // NgbModule,
+    // LazyLoadImageModule, 
+    // MatSliderModule, 
     HttpClientModule
   ],
   providers: [],
