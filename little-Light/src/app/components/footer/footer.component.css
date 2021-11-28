@@ -22,7 +22,10 @@
 }
 
 .footer-item {
-padding: 23px 26px;
+/* padding: 23px 26px; */
+padding: 44px 211px 46px 133px;
+font-size: 20px;
+font-family: 'Courier New', Courier, monospace;
 display: flex;
 flex-direction: column;
 }
@@ -60,4 +63,8 @@ img {
 
 .icon{
     margin-right: 5px;
+}
+
+h3 {
+    font-size: 30px;
 }

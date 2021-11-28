@@ -11,4 +11,20 @@
 }
 .icon-arrest:before {
     content: "\e901";
-  }
+}
+
+@font-face {
+    font-family: "icon-upload";
+    src:url("../fonts/icon-upload.eot");
+    src:url("../fonts/icon-upload.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/icon-upload.ttf") format("truetype"),
+    url("../fonts/icon-upload.woff") format("woff"),
+    url("../fonts/icon-upload.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+.icon-upload:before {
+    content: "\e934";
+}
+  
