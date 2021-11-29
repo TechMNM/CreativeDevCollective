@@ -1,0 +1,143 @@
+.overview-card {
+  padding: 40px 20px;
+}
+
+.heading {
+  padding: 30px;
+  text-align: center;
+  font-size: 37px;
+  color: #BF258C;
+  margin: 10px;
+  line-height: 2;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+svg {
+  width: 29vw;
+  height: 16vh;
+  z-index: 0;
+}
+
+.paragraph {
+  padding: 50px 15px;
+  font-size: 23px;
+  line-height: 1.5;
+}
+
+
+img {
+  height: 40vh;
+}
+
+.color-one {
+  padding-right: 14px;
+  color: #00B3E3;
+}
+
+.color-two {
+  color: greenyellow;
+}
+
+@media(min-width: 375px) {
+  img {
+    height: 47vh;
+  }
+}
+
+@media(min-width: 425px) {}
+
+@media(min-width:768px) {
+  .content {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .overview-card {
+    padding: 80px 32px;
+  }
+
+  .heading {
+    font-size: 50px;
+  }
+
+  .paragraph {
+    padding: 59px 46px;
+    font-size: 15px;
+  }
+}
+
+@media(min-width:1024px) {
+  .content {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .overview-card {
+    padding: 80px 120px;
+    padding: 80px 32px;
+  }
+
+  .heading {
+    font-size: 50px;
+  }
+
+  .paragraph {
+    padding: 58px 64px;
+    font-size: 20px;
+  }
+}
+
+@media(min-width:1440px) {
+  .content {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .overview-card {
+    padding: 80px 120px;
+    padding: 80px 32px;
+  }
+
+  .heading {
+    font-size: 50px;
+  }
+
+  .paragraph {
+    padding: 124px 112px;
+    font-size: 28px;
+  }
+
+  img {
+    height: 70vh;
+  }
+}
+
+@media(min-width:2560px) {
+  .content {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .overview-card {
+    padding: 80px 300px;
+  }
+
+  .heading {
+    font-size: 100px;
+  }
+
+  .paragraph {
+    padding: 180px 86px;
+    font-size: 40px;
+  }
+
+  img {
+    height: 100vh;
+  }
+
+}

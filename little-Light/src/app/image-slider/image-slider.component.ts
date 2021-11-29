@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'app-image-slider',
@@ -7,7 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomePageSliderComponent implements OnInit {
 
-  constructor() { }
+  defaultImage = '/assets/images/image-block.png';
+  slide01 = '/assets/images/slide1.jpg';
+  slide02 = '/assets/images/cta-image.jpg';
+  slide03 = '/assets/images/slide1.jpg';
+
+  constructor() {
+
+   }
 
   ngOnInit(): void {}
 

@@ -1,4 +1,4 @@
-
+<!-- 
 
 <head>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -17,18 +17,6 @@
                     <a href="#">About</a>
                     <a href="#">Contact</a>
                     <a href="#">Classroom<i class="fas fa-caret-down"></i></a>
-                    <!-- <ul>
-                        
-                        <div class="dropdown__menu">
-                            <ul>
-                                <li><a href="#">Baby Class</a></li>
-                                <li><a href="#">Grade RRRR</a></li>
-                                <li><a href="#">Grade RRR</a></li>
-                                <li><a href="#">Grade RR</a></li>
-                                <li><a href="#">Grade R</a></li>
-                            </ul>
-                        </div>
-                    </ul> -->
                     <a href="#">Register Now</a>
                 </nav>
             </div>
@@ -70,4 +58,25 @@
             </div>
         </div>  
     </div>
-</section>
+</section> -->
+
+<section class = "home-banner">
+    <div id="" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#" data-slide-to="0" class="active"></li>
+          <li data-target="#" data-slide-to="1"></li>
+          <li data-target="#" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100 h-60" [defaultImage]="defaultImage" [lazyLoad]="slide01" alt="First slide" />
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100 h-60" [defaultImage]="defaultImage" [lazyLoad]="slide02" alt="Second slide" />
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100 h-60" [defaultImage]="defaultImage" [lazyLoad]="slide03" alt="Third slide" />
+          </div>
+        </div>
+      </div>
+    </section>
