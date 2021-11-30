@@ -22,7 +22,7 @@ import { GraderrComponent } from './pages/classrooms/graderr/graderr.component';
 import { GraderComponent } from './pages/classrooms/grader/grader.component';
 import { GalleryPageComponent } from './gallery-page/gallery-page.component';
 import { RegisterComponent } from './register/register.component';
-
+import { FormPageComponent } from './pages/form-page/form-page.component'
 @NgModule({
   declarations: [
     AppComponent,
@@ -41,7 +41,8 @@ import { RegisterComponent } from './register/register.component';
     GraderrComponent,
     GraderComponent,
     GalleryPageComponent,
-    RegisterComponent
+    RegisterComponent,
+    FormPageComponent
   ],
   imports: [
     BrowserModule,
