@@ -1,0 +1,42 @@
+<mat-toolbar>
+  <div fxHide.gt-xs>
+    <button mat-icon-button (click)="onToggleSidenav()">
+      <mat-icon>menu</mat-icon>
+    </button>
+  </div>
+  <div class="home-section">
+    <a routerLink="/home"><img src="/assets/images/Logo.png"></a>
+  </div>
+  <div fxFlex fxLayout fxLayoutAlign="end" fxHide.xs>
+    <ul fxLayout fxLayoutGap="15px" class="navigation-items">
+      <li>
+        <a routerLink="/" routerLinkActive="active">Home</a>
+      </li>
+      <li>
+        <a routerLink="/about" routerLinkActive="active">About</a>
+      </li>
+      <li>
+        <a routerLink="/gallery" routerLinkActive="active">Gallery</a>
+      </li>
+      <div class="dropdown">
+        <span class="dropdown-toggle" data-toggle="dropdown">
+          Classrooms
+          <div class="dropdown-menu">
+            <a class="dropdown-item" routerLink="/babyclass">Baby Class</a>
+            <a class="dropdown-item" routerLink="/toddlerclass">Toddler Class</a>
+            <a class="dropdown-item" routerLink="/preschool01">Preschool Class 01</a>
+            <a class="dropdown-item" routerLink="/preschool02">Preschool Class 02</a>
+            <a class="dropdown-item" routerLink="/graderr">Grade RR</a>
+            <a class="dropdown-item" routerLink="/grader"> Grade R</a>
+          </div>
+        </span>
+      </div>
+      <li>
+        <a routerLink="/registration" routerLinkActive="active">Applications</a>
+      </li>
+      <li>
+        <a routerLink="/contact" routerLinkActive="active">Contact</a>
+      </li>
+    </ul>
+  </div>
+</mat-toolbar>

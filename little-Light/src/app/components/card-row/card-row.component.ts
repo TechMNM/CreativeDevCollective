@@ -1,11 +1,14 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-card-row',
   templateUrl: './card-row.component.html',
-  styleUrls: ['./card-row.component.css']
+  styleUrls: ['./card-row.component.scss']
 })
 export class CardRowComponent implements OnInit {
+
+  @Input()
+  overviewimagesData: any[];
 
   constructor() { }
 

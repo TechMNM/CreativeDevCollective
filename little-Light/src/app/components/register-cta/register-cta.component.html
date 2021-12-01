@@ -5,7 +5,7 @@
         <ng-container [ngSwitch]="data.type">
           <h1 class="register-cta__heading" *ngSwitchCase="'header'">{{ data.content }}</h1>
           <p class="register-cta__paragraph" *ngSwitchCase="'paragraph'">{{ data.content }}</p>
-          <button class="register-cta__cta-button" *ngSwitchCase="'button'">{{ data.content }}</button>
+          <a routerLink="/registration" routerLinkActive="active"><button class="register-cta__cta-button" *ngSwitchCase="'button'">{{ data.content }}</button></a>
         </ng-container>
       </ng-container>
     </div>

@@ -1,6 +1,8 @@
 <app-image-slider></app-image-slider>
-<app-overview-card></app-overview-card>
-<app-register-cta [ctaData] ="ctaData"></app-register-cta>
-<app-card-row></app-card-row>
-<app-classroom-slider></app-classroom-slider>
- 
+<section class="home-page">
+    <div class="home-page__heading"><span class="home-page__color-one">{{title01}}</span><span
+            class="home-page__color-two">{{title02}}</span></div>
+    <app-overview-card [overviewCard]="overviewData"></app-overview-card>
+    <app-register-cta [ctaData]="ctaData"></app-register-cta>
+    <app-card-row [overviewimagesData]="overviewimagesData"></app-card-row>
+</section>

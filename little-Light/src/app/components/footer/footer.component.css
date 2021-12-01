@@ -10,8 +10,9 @@
     .footer {
         display: flex;
         flex-direction: row;
-        align-content: space-between;
-        padding: 0px 30px 20px;
+        align-content: center;
+        align-content: center;
+        padding: 0em 1em;
     } 
 
     .footer-item {
@@ -22,9 +23,11 @@
 }
 
 .footer-item {
-padding: 23px 26px;
-display: flex;
-flex-direction: column;
+    padding: 4em 1em;
+    display: flex;
+    flex-direction: column;
+    min-width: 20vw;
+    align-content: center;
 }
 
 .logo{
@@ -34,7 +37,7 @@ flex-direction: column;
 }
 
 img {
-    max-width: 15vw;
+    max-width: 21vw;
 }
 
 .icon-border {
@@ -60,4 +63,20 @@ img {
 
 .icon{
     margin-right: 5px;
+}
+
+@media(min-width:1280px) {
+    .footer {
+        padding: 0em 4em;
+    }
+
+    .footer-item {
+        padding: 4em 6em;
+    }
+}
+
+@media(min-width:1440px) {
+    .footer {
+        padding: 0em 6em;
+    }
 }

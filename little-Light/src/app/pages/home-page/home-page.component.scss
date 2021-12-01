@@ -1,3 +1,56 @@
+.home-page {
+padding-top: 13em;
+
+@media(min-width: 768px) {
+    padding-top: 8em;
+}
+
+&__heading {
+    text-align: center;
+    padding: 50px 0px 50px;
+    font-family: 'Bree Serif', serif;
+
+    @media(min-width: 768px) {
+        padding: 5em 0em 0em;
+    }
+  }
+
+  &__color-one {
+    padding: 5px;
+    color: #A1CC4D;
+    padding-right: 0.3em;
+
+    @media(min-width: 768px) {
+        font-size: 40px;
+    }
+
+    @media(min-width: 1440px) {
+        font-size: 60px;
+    }
+
+    @media(min-width: 2560px) {
+     font-size: 110px;   
+     padding-right: 0.3em;
+    }
+  }
+
+  &__color-two {
+    color: #BF258C;
+
+    @media(min-width: 768px) {
+        font-size: 40px;
+    }
+
+    @media(min-width: 1440px) {
+        font-size: 60px;
+    }
+
+    @media(min-width: 2560px) {
+      font-size: 110px;
+    }
+  }
+
+}
 
 nav {
     background: #0082e6;
