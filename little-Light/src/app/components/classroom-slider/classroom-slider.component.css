@@ -1,4 +1,4 @@
-.classroom-slider {
+/* .classroom-slider {
     width: 90vw;
     overflow-x: scroll;
     margin: 1em;
@@ -30,7 +30,5 @@ img {
   ::-webkit-scrollbar-thumb {
     background-color: #A1CC4D;
     outline: 1px solid #eee;
-    /* border-radius: 20px;       
-    width: 3em;
-    background-clip: content-box; */
-  }
+  } */
+

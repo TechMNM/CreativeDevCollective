@@ -8,6 +8,8 @@ import { Observable, of } from "rxjs";
 export class HomePageService {
 
   private _ctaUrl: string = "/assets/data/pages/home-page/cta.json";
+  private _overviewUrl: string ="/assets/data/pages/home-page/overview.json";
+  private _imagesUrl: string ="/assets/data/pages/home-page/images.json"
 
 
   constructor(private http: HttpClient) {}
@@ -15,5 +17,11 @@ export class HomePageService {
       return this.http.get(this._ctaUrl);
     }
 
-   
+    getOverviewData() {
+      return this.http.get(this._overviewUrl);
+    }
+
+    getImagesData() {
+      return this.http.get(this._imagesUrl)
+    }
 }

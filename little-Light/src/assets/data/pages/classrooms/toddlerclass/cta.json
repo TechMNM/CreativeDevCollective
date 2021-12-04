@@ -1,0 +1,14 @@
+[
+    {
+        "type": "header",
+        "content": "Register for 2022"
+    },
+    {
+        "type": "paragraph",
+        "content": "Little Light Academy is a child care facility which is committed to providing a positive and stimulating environment."
+    },
+    {
+        "type": "button",
+        "content": "Register"
+    }
+]

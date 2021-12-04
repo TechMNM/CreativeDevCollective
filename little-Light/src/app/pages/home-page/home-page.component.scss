@@ -1,0 +1,128 @@
+
+.home-page {
+padding-top: 2em;
+
+@media(min-width: 768px) {
+    padding-top: 0em;
+}
+
+@media(min-width: 2560px) {
+    padding-top: 4em;
+}
+
+&__heading {
+    text-align: center;
+    padding: 1em;
+    line-height: 45px;
+    font-family: 'Bree Serif', serif;
+    font-size: 28px;
+
+    @media(min-width: 768px) {
+        padding: 3em 0em 0em;
+    }
+  }
+
+  &__color-one {
+    padding: 5px;
+    color: #A1CC4D;
+    padding-right: 0.3em;
+
+    @media(min-width: 768px) {
+        font-size: 40px;
+    }
+
+    @media(min-width: 1440px) {
+        font-size: 60px;
+    }
+
+    @media(min-width: 2560px) {
+     font-size: 110px;   
+     padding-right: 0.3em;
+    }
+  }
+
+  &__color-two {
+    color: #BF258C;
+
+    @media(min-width: 768px) {
+        font-size: 40px;
+    }
+
+    @media(min-width: 1440px) {
+        font-size: 60px;
+    }
+
+    @media(min-width: 2560px) {
+      font-size: 110px;
+    }
+  }
+
+}
+
+nav {
+    background: #0082e6;
+    height: 80px;
+    width: 100%;
+}
+label.logo {
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 2px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav ul {
+    float: right;
+    margin-bottom: 20px;
+
+}
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: -14px 5px;
+}
+nav ul li a {
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+a.active, a:hover {
+    background: #1b9bff;
+    transition: .5s;
+}
+@media (max-width: 952px) {
+    label.logo{
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    nav ul li a {
+        font-size: 16px;
+    }
+}
+@media (max-width: 858px){
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2c3e50;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a {
+        font-size: 20px;
+    }
+    a:hover, a.active {
+        background: none;
+        color: #0082e6;
+    }
+}

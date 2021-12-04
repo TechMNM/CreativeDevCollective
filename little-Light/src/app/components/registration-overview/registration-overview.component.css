@@ -5,6 +5,13 @@
     padding: 40px 20px; 
 }
 
+.button-section{
+    padding: 17px;
+}
+
+button {
+    margin-right: 17px;
+}
 .heading {
 padding: 30px;
 text-align: center;
