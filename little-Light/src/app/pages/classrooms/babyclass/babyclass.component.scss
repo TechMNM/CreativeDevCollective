@@ -205,8 +205,12 @@
   }
 
 &__slider {
-    background: #00B3E3;
     padding: 50px;
+    background: url("/assets/images/hand-red.png") transparentize($color: white, $amount: 0.4);
+    background-size: 20vh;
+    background-repeat: no-repeat;
+    background-color: #00B3E3;
+    background-position: right;
 
     @media(min-width: 2560px) {
       padding: 6em 40em;

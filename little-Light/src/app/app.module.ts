@@ -10,6 +10,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { RegistrationPageComponent } from './pages/registration-page/registration-page.component';
 import { RegistrationOverviewComponent } from './components/registration-overview/registration-overview.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { LazyLoadImageModule } from 'ng-lazyload-image';
 import { MatSliderModule } from '@angular/material/slider';
 import { HttpClientModule } from '@angular/common/http';
@@ -30,6 +31,11 @@ import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatListModule} from '@angular/material/list';
 import { FlexLayoutModule } from "@angular/flex-layout";
 import { NgImageSliderModule } from 'ng-image-slider';
+import { GalleryPageComponent } from './gallery-page/gallery-page.component';
+import { RegisterComponent } from './register/register.component';
+import { FormPageComponent } from './pages/form-page/form-page.component';
+import {MatButtonModule} from '@angular/material/button';
+import { ContactComponent } from './pages/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -51,7 +57,11 @@ import { NgImageSliderModule } from 'ng-image-slider';
     AboutUsComponent,
     TopToolbarComponent,
     SideNavComponent,
-    NavigationComponent
+    NavigationComponent,
+    GalleryPageComponent,
+    RegisterComponent,
+    FormPageComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
@@ -66,7 +76,10 @@ import { NgImageSliderModule } from 'ng-image-slider';
     MatListModule,
     BrowserAnimationsModule,
     FlexLayoutModule,
-    NgImageSliderModule
+    NgImageSliderModule,
+    FormsModule,
+    ReactiveFormsModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

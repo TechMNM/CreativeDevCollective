@@ -1,48 +1,98 @@
+.banner {
+  background-image: url("/assets/images/slide1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  width: 100%;
+}
+ @media(min-width:768px) {
+   .banner {
+     height: 100vh;
+   }
+ }
+
 .registration-page {
-  
+  font-size: 12px;
 }
 
-input[type=text], select {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-  }
+input[type="text"],
+select {
+  /* width: 100%; */
+  padding: 12px 20px;
+  margin: 8px 0;
+  /* display: inline-block; */
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
 
-  .grade-section 
-  {
-   /* display: flex;
+.grade-section {
+  /* display: flex;
    flex-direction: column; 
    align-content: space-between; */
-   border: solid 1px #BF258C;
-   border-radius: 2px;
-   padding: 10px;
-  }
+  border: solid 1px #bf258c;
+  margin: 30px;
+  border-radius: 2px;
+  padding: 10px;
+  display: flex;
+}
 
-  .grade-fields {
-      padding: 20px 70px;
-  }
+.grade-fields {
+  padding: 20px 70px;
+}
 
+.row {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+
+@media (min-width: 768px) {
   .row {
     display: flex;
-    flex-direction: column; 
-    align-content: space-between;
+    flex-direction: row;
   }
+}
 
-  @media(min-width:768px) {
-    .row {
-        display: flex;
-        flex-direction: row; 
-      }  
-  }
+.button-row {
+  padding: 50px;
+}
 
-  .button-row {
-    padding: 50px;
-  }
+.heading {
+  padding: 10px 0px;
+  font-size: 30px;
+  margin: 28px;
+}
+/* .grade-section ul li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  display: inline;
+} */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /* background-color: #333; */
+}
 
-  .heading {
-    padding: 50px 0px;
-  }
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: white;
+}
