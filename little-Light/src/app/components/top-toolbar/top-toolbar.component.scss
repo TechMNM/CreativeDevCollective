@@ -1,29 +1,47 @@
 
 .home-section {
-    padding: 2em 3em;
+    padding: 2em 1.5em;
 
- img {
-    width: 33vw;
-    height: 16vh;
-
-    // @media(min-width: 375px) {
-    //     width: 41vw;
-    //     height: 10vh;
-    // }
+    @media(min-width: 360px) {
+        padding: 2em 3.5em;
+    }
 
     @media(min-width: 768px) {
-        width: 16vw;
+    padding: 2em 3em;
+    }
+
+    @media(min-width: 1024px) {
+        padding: 2em 2em;
+    }
+
+ img {
+    width: 48vw;
+    height: 9vh;
+
+    @media(min-width: 360px) {
+    width: 34vw;
+    height: 9vh;
+    }
+
+
+    @media(min-width: 768px) {
+        width: 15vw;
         height: 8vh;
     }
 
     @media(min-width: 1024px) {
+        width: 20vw;
+        height: 12vh;
+    }
+
+    @media(min-width: 1280px) {
         width: 13vw;
-        height: 8vh;
+        height: 12vh;
     }
 
     @media(min-width: 1440px) {
         width: 12vw;
-        height: 18vh;
+        height: 11vh;
     }
  }
 }
@@ -35,9 +53,17 @@ a {
     font-size: 16px;
     font-weight: 500;
     letter-spacing: 2px;
-    
+
+    @media(min-width: 768px) {
+        font-size: 12px;
+    }
+
+    @media(min-width: 1024px) {
+        font-size: 20px;
+    }
+
     @media(min-width: 1440px) {
-        font-size: 16px;
+        font-size: 22px;
     }
 
     @media(min-width: 2560px) {
@@ -57,11 +83,11 @@ a:hover, a:active{
     font-weight: 400;
 
     @media(min-width: 768px) {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     @media(min-width: 1024px){
-        font-size: 16px;
+        font-size: 19px;
     }
 
     @media(min-width: 1280px) {
@@ -74,17 +100,16 @@ a:hover, a:active{
     background-color: white !important;
     top: 0;
     width: 100%;
-    // padding: 45px 34px 45px 15px;
-    padding: 10vh;
+    padding: 6vh;
     position: absolute;
     z-index: 3;  
 
-    @media(min-width: 1440px) {
-        // padding: 60px 34px 61px 15px;
+    @media(min-width: 768px) {
+        padding: 5vh;
     }
 
-    @media(min-width: 2560px) {
-        // padding: 93px 34px 100px 15px;
+    @media(min-width: 1024px) {
+        padding: 7vh;
     }
 }
 
@@ -97,6 +122,23 @@ a:hover, a:active{
 .dropdown-toggle 
 {
     font-size: 16px;
+    font-family: 'Signika Negative', sans-serif;
+
+    @media(min-width: 768px) {
+        font-size: 12px;
+    }
+
+    @media(min-width: 1024px){
+        font-size: 19px;
+    }
+
+    @media(min-width: 1280px) {
+        font-size: 20px;
+    }
+
+    @media(min-width: 1440px) {
+        font-size: 22px;
+    }
 
     @media(min-width: 2560px) {
         font-size: 25px;

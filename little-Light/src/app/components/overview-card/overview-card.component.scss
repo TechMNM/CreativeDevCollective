@@ -1,6 +1,27 @@
 .overview-card {
-  margin: 0px;
+  // margin: 0px;
   overflow: hidden;
+  background-blend-mode: overlay;
+  background-size: 20em;
+  background-repeat: no-repeat;
+  background-position: right;
+
+  &__hand-image {
+    opacity: 0.2;
+    height: 17vh;
+
+    @media(min-width: 1280px) {
+      height: 30vh;
+    }
+
+    @media(min-width: 1440px) {
+      height: 30vh;
+    }
+
+    @media(min-width: 2560px) {
+      height: 40vh;
+    }
+  }
 
   &__heading {
     text-align: center;
@@ -23,6 +44,7 @@
     align-items: center;
     align-content: center;
     padding: 0em 1.5em 3em;
+    z-index: 3;
 
     @media(min-width: 425px) {
       padding: 0em 2.5em 3em;
@@ -44,8 +66,12 @@
 
   &__image {
     img {
-      min-width: 23vw;
+      width: 75vw;
       padding: 2em 0em;
+
+      @media(min-width: 768px) {
+        width: 23vw;
+      }
     }
   }
 
@@ -57,16 +83,28 @@
     line-height: 2;
 
     @media(min-width: 768px) {
-      padding: 0em 3.7em;
+      padding: 0em 2.7em;
+      max-width: 74vw;
+      font-size: 12px;
+    }
+
+    @media(min-width: 1024px) {
+      font-size: 15px;
+    }
+
+    @media(min-width: 1280px) {
+      font-size: 21px;
     }
 
     @media(min-width: 1440px) {
+      padding: 0em 2em;
       font-size: 27px;
       line-height: 2;
     }
 
     @media(min-width: 2560px) {
       font-size: 43px;
+      max-width: 54vw;
     }
   }
 

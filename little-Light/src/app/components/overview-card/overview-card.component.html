@@ -1,4 +1,5 @@
 <section class="overview-card">
+  
   <!-- <div class="overview-card__heading"><span class="overview-card__color-one">{{title01}}</span><span
       class="overview-card__color-two">{{title02}}</span></div> -->
   <div class="overview-card__content">
@@ -12,7 +13,7 @@
           transform="translate(-732.11 -1138.004)" fill="#00b3e2" stroke="#00b3e2" stroke-width="1" />
       </svg>
       <img class="overlay-image" src="/assets/images/homeoverview-image.png"> -->
-          <img *ngSwitchCase="'image'" style="width:100%; height:100%;" [src]="overviewData.content.src"
+          <img *ngSwitchCase="'image'" style="height:100%;" [src]="overviewData.content.src"
             [useSrcset]="true" />
         </div>
         <div class="overview-card__text">
@@ -22,5 +23,6 @@
         </div>
       </ng-container>
     </ng-container>
+    <img class ="overview-card__hand-image" src="/assets/images/hand.png">
   </div>
 </section>

@@ -102,6 +102,11 @@ nav a:hover {
   margin: 10px;
 } */
 
+.home-banner{
+  padding-top: 7em;
+
+}
+
 .carousel-indicators > li {
   border-radius: 50%;
   height: 11px;
@@ -115,3 +120,7 @@ nav a:hover {
   width: 17px;
   }
 }
+
+/* .overlay {
+  background: rgba(188, 25, 134, 0.5);
+} */

@@ -1,10 +1,20 @@
 .classrooms {
+background: url("/assets/images/hand-blue.png") transparentize($color: white, $amount: 0.4);
+background-size: 15vh;
+background-repeat: no-repeat;
+background-blend-mode: lighten;
+background-position: center;
+
+@media(min-width: 768px) {
+  background-position: right;
+}
+
   &__header {
     text-align: center;
-    font-size: 18px;
+    font-size: 30px;
     padding: 1.4em;
     font-family: 'Bree Serif', serif;
-    letter-spacing: 3;
+    letter-spacing: 2px;
 
     @media(min-width: 768px) {
       font-size: 40px;
@@ -12,7 +22,7 @@
     }
 
     @media(min-width:1280px) {
-      padding: 1.4em;
+      padding: 0.9em;
     }
 
     @media(min-width: 1440px) {
@@ -23,25 +33,32 @@
   &__card-row {
     display: flex;
     flex-direction: column;
-    padding: 30px;
+    padding: 10px;
+    
 
     @media(min-width: 768px) {
       flex-direction: row;
       align-items: center;
+      padding: 30px;
     }
 
     @media(min-width: 1024px) {
-      // flex-direction: row;
-      // align-items: center;
-      padding: 1em 2.5em;
+      padding: 2em 2.5em;
+      width: 95%;
+      margin: 0 auto;
+    }
+
+    @media(min-width: 1280px) {
+      width: 80%;
     }
 
     @media(min-width: 1440px) {
-      padding: 0 5em;
+      padding: 1 5em;
+      width: 90%;
     }
 
     @media(min-width:2560px) {
-      padding: 0 19em;
+      padding: 1 19em;
     }
 
 
@@ -69,22 +86,22 @@
     @media(min-width: 768px) {}
 
     img {
-      height: 45vh;
+      height: 30vh;
 
       @media(min-width: 768px) {
-        height: 13vh;
+        height: 9vh;
       }
 
       @media(min-width:1024px) {
-        height: 17vh;
+        height: 10vh;
       }
 
       @media(min-width:1440px) {
-        height: 24vh;
+        height: 15vh;
       }
 
       @media(min-width:2560px) {
-        height: 40vh;
+        height: 21vh;
       }
     }
   }
@@ -124,7 +141,7 @@
   }
 
   &__blue {
-    color:#00B3E3;
+    color: #00B3E3;
   }
 
   &__purple {
@@ -177,7 +194,7 @@
 
   &__btn-orange {
     background: orange;
-  
+
   }
 
   &__btn-green {
@@ -189,7 +206,8 @@
   }
 
   &__btn-blue {
-    background:#00B3E3;;
+    background: #00B3E3;
+    ;
   }
 
   &__btn-purple {
