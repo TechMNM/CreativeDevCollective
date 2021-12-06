@@ -1,28 +1,16 @@
 <section class="overview-card">
-  
-  <!-- <div class="overview-card__heading"><span class="overview-card__color-one">{{title01}}</span><span
-      class="overview-card__color-two">{{title02}}</span></div> -->
   <div class="overview-card__content">
     <ng-container *ngFor="let overviewData of overviewCard">
       <ng-container [ngSwitch]="overviewData.type">
         <div class="overview-card__image">
-          <!-- To Do: Use svg and image on top instead of solid image -->
-          <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 511.877 532.863">
-        <path id="Path_3" data-name="Path 3"
-          d="M941.152,1191.12s-190.862,35.437-149.006,123.257,30.136,114.013-33.484,147.909,10.045,169.479,10.045,169.479,15.068,47.762,117.2,36.977,85.385-83.2,194.21-36.977,105.476,24.652,127.241-40.059,10.045-55.466-18.417-141.746,77.014-155.613,50.227-177.182-1.674-150.99-117.2-132.5S941.152,1191.12,941.152,1191.12Z"
-          transform="translate(-732.11 -1138.004)" fill="#00b3e2" stroke="#00b3e2" stroke-width="1" />
-      </svg>
-      <img class="overlay-image" src="/assets/images/homeoverview-image.png"> -->
-          <img *ngSwitchCase="'image'" style="height:100%;" [src]="overviewData.content.src"
-            [useSrcset]="true" />
+          <img *ngSwitchCase="'image'" style="height:100%;" [src]="overviewData.content.src" [useSrcset]="true" />
         </div>
         <div class="overview-card__text">
           <div class="overview-card__paragraph" *ngSwitchCase="'paragraph'">{{overviewData.content}}
-            <!-- <a href="#">Read More</a> -->
           </div>
         </div>
       </ng-container>
     </ng-container>
-    <img class ="overview-card__hand-image" src="/assets/images/hand.png">
+    <img class="overview-card__hand-image" src="/assets/images/hand.png">
   </div>
 </section>

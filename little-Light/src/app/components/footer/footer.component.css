@@ -62,7 +62,7 @@ img {
 }
 
 .icon{
-    margin-right: 5px;
+    margin-right: 10px;
 }
 
 @media(min-width:1280px) {
@@ -79,4 +79,17 @@ img {
     .footer {
         padding: 0em 6em;
     }
+}
+
+a {
+    text-decoration: none;
+    color: white;   
+}
+ 
+a:hover, a:active{
+    color: lightgray;
+}
+
+.fa {
+    color: black;
 }

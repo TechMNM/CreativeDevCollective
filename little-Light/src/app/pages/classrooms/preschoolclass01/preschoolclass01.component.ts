@@ -12,37 +12,37 @@ overviewData;
 ctaData;
 
 defaultImage = '/assets/images/image-block.png';
-slide01 = '/assets/images/slide1.jpg';
-slide02 = '/assets/images/cta-image.jpg';
-slide03 = '/assets/images/slide1.jpg';
+slide01 = '/assets/images/gallery/gallery16.jpg';
+slide02 = '/assets/images/gallery/gallery17.jpg';
+slide03 = '/assets/images/gallery/gallery18.jpg';
 
 title01 = 'PreSchool Class 1';
 title02 = '- Smurf (3yr)'
 
 imageObject: Array<object> = [{
-  image: '/assets/images/gallery/gallerytest.jpg',
-  thumbImage: '/assets/images/gallery/gallerytest.jpg'
+  image: '/assets/images/gallery/gallery18.jpg',
+  thumbImage: '/assets/images/gallery/gallery18.jpg'
 }, {
-  image: '/assets/images/gallery/gallerytest.jpg',
-  thumbImage: '/assets/images/gallery/gallerytest.jpg'
+  image: '/assets/images/gallery/gallery17.jpg',
+  thumbImage: '/assets/images/gallery/gallery17.jpg'
 }, {
-  image: '/assets/images/gallery/gallerytest.jpg',
-  thumbImage: '/assets/images/gallery/gallerytest.jpg'
+  image: '/assets/images/gallery/gallery16.jpg',
+  thumbImage: '/assets/images/gallery/gallery16.jpg'
 }, {
-  image: '/assets/images/gallery/gallerytest.jpg',
-  thumbImage: '/assets/images/gallery/gallerytest.jpg'
+  image: '/assets/images/gallery/gallery15.jpg',
+  thumbImage: '/assets/images/gallery/gallery15.jpg'
 }, {
-  image: '/assets/images/gallery/gallerytest.jpg',
-  thumbImage: '/assets/images/gallery/gallerytest.jpg'
+  image: '/assets/images/gallery/gallery16.jpg',
+  thumbImage: '/assets/images/gallery/gallery16.jpg'
 }, {
-  image: '/assets/images/gallery/gallerytest.jpg',
-  thumbImage: '/assets/images/gallery/gallerytest.jpg'
+  image: '/assets/images/gallery/gallery15.jpg',
+  thumbImage: '/assets/images/gallery/gallery15.jpg'
 }, {
-  image: '/assets/images/gallery/gallerytest.jpg',
-  thumbImage: '/assets/images/gallery/gallerytest.jpg'
+  image: '/assets/images/gallery/gallery14.jpg',
+  thumbImage: '/assets/images/gallery/gallery14.jpg'
 }, {
-  image: '/assets/images/gallery/gallerytest.jpg',
-  thumbImage: '/assets/images/gallery/gallerytest.jpg'
+  image: '/assets/images/gallery/gallery13.jpg',
+  thumbImage: '/assets/images/gallery/gallery14.jpg'
 }
 ];
 
