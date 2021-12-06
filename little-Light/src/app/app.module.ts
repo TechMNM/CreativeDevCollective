@@ -36,6 +36,7 @@ import { RegisterComponent } from './register/register.component';
 import { FormPageComponent } from './pages/form-page/form-page.component';
 import {MatButtonModule} from '@angular/material/button';
 import { ContactComponent } from './pages/contact/contact.component';
+import { WhatsappButtonComponent } from './components/whatsapp-button/whatsapp-button.component';
 
 @NgModule({
   declarations: [
@@ -61,7 +62,8 @@ import { ContactComponent } from './pages/contact/contact.component';
     GalleryPageComponent,
     RegisterComponent,
     FormPageComponent,
-    ContactComponent
+    ContactComponent,
+    WhatsappButtonComponent
   ],
   imports: [
     BrowserModule,
