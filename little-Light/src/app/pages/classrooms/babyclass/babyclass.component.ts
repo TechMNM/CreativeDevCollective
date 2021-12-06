@@ -11,9 +11,9 @@ export class BabyclassComponent implements OnInit {
   overviewData;
 
 defaultImage = '/assets/images/image-block.png';
-slide01 = '/assets/images/slide1.jpg';
-slide02 = '/assets/images/cta-image.jpg';
-slide03 = '/assets/images/slide1.jpg';
+slide01 = '/assets/images/gallery/gallery10.jpg';
+slide02 = '/assets/images/gallery/gallery11.jpg';
+slide03 = '/assets/images/gallery/gallery12.jpg';
 
 title01 = 'Baby Class';
 title02 = '- Newborn to 12 months'

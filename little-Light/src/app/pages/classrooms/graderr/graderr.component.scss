@@ -1,18 +1,40 @@
+.banner{
+  padding-top: 6em;
+
+}
+
+.carousel-indicators>li {
+  border-radius: 50%;
+  height: 11px;
+  width: 11px;
+
+  @media (min-width: 768px) {
+    height: 17px;
+    width: 17px;
+  }
+
+}
 
 .gradeRR {
-  padding-top: 3em;
+  padding-top: 0.5em;
 
   @media(min-width: 768px) {
-  padding-top: 13em;
+    padding-top: 0em;
   }
-  
-  &__heading{
+
+  @media(min-width: 2560px) {
+    padding-top: 4em;
+  }
+
+  &__heading {
     text-align: center;
-    padding: 50px 0px 50px;
+    padding: 1em;
+    line-height: 45px;
     font-family: 'Bree Serif', serif;
+    font-size: 28px;
 
     @media(min-width: 768px) {
-        padding: 5em 0em 0em;
+      padding: 3em 0em 0em;
     }
   }
 
@@ -20,160 +42,229 @@
     padding: 5px;
     color: #A1CC4D;
     padding-right: 0.3em;
+    font-size: 20px;
 
     @media(min-width: 768px) {
-        font-size: 30px;
+      font-size: 30px;
     }
 
     @media(min-width: 1440px) {
-        font-size: 40px;
+      font-size: 40px;
     }
 
     @media(min-width: 2560px) {
-     font-size: 60px;   
-     padding-right: 0.3em;
+      font-size: 50px;
+      padding-right: 0.3em;
     }
   }
 
   &__color-two {
     color: #BF258C;
+    font-size: 20px;
 
     @media(min-width: 768px) {
-        font-size: 30px;
+      font-size: 30px;
     }
 
     @media(min-width: 1440px) {
-        font-size:40px;
+      font-size: 40px;
     }
 
     @media(min-width: 2560px) {
-      font-size: 60px;
+      font-size: 50px;
     }
   }
 
+
   @media(min-width: 768px) {
-      padding-top: 2em;
+    padding-top: 2em;
   }
 
   &__info {
     font-size: 18px;
     line-height: 2;
     padding: 40px;
-    
-    
-    p{
-        font-size: 23px;
+
+
+    p {
+      font-size: 23px;
     }
-    }
-  
-.activities {
+  }
+
+  .activities {
     &__header {
       text-align: center;
-      font-size: 18px;
+      font-size: 30px;
       padding: 1.4em;
       font-family: 'Bree Serif', serif;
-  
+      letter-spacing: 2px;
+
       @media(min-width: 768px) {
         font-size: 40px;
+        padding: 1.4em 1.4em 0em;
       }
-  
+
+      @media(min-width:1280px) {
+        padding: 0.9em;
+      }
+
       @media(min-width: 1440px) {
         font-size: 50px;
       }
     }
-  
+
     &__card-row {
       display: flex;
       flex-direction: column;
-      padding: 30px;
-  
+      padding: 10px;
+
+
       @media(min-width: 768px) {
         flex-direction: row;
         align-items: center;
+        padding: 30px;
       }
-  
+
       @media(min-width: 1024px) {
-        padding: 1em 2.5em;
+        padding: 2em 2.5em;
+        width: 85%;
+        margin: 0 auto;
       }
-  
+
+      @media(min-width: 1280px) {
+        width: 80%;
+      }
+
       @media(min-width: 1440px) {
-        padding: 0 13em;
+        padding: 1em 5em;
+        width: 80%;
       }
-  
+
       @media(min-width:2560px) {
-        padding: 2em 20em;
+        padding: 1em 14em;
+        width: 86%;
       }
-  
-  
     }
-  
+
     &__image-card {
-  
+
+      padding: 2em 1em;
+
       @media(min-width: 1024px) {
         padding: 1em;
       }
-  
+
       @media(min-width:1440px) {
         position: relative;
         padding: 2em;
       }
     }
-  
+
     &__image {
       display: flex;
       flex-direction: column;
       align-items: center;
-  
+
       @media(min-width: 768px) {}
-  
+
       img {
-        height: 25vh;
-  
+        height: 30vh;
+
+        @media(min-width: 768px) {
+          height: 11vh;
+        }
+
         @media(min-width:1024px) {
-          height: 16vh;
+          height: 15vh;
         }
-  
-        @media(min-width:1440px) {
-          height: 28vh;
+
+        @media(min-width:1280px) {
+          height: 22vh;
         }
-  
+
         @media(min-width:2560px) {
-          height: 48vh;
+          height: 23vh;
         }
       }
     }
-  
+
     &__text-section {
       text-align: center;
       line-height: 2;
-  
+
       p {
-        font-size: 10px;
+        font-size: 12px;
+        font-family: 'Signika Negative', sans-serif;
+
+        @media(min-width:768px) {
+          font-size: 8px;
+        }
+
+        @media(min-width: 1024px) {
+          font-size: 12px;
+        }
+
+        @media(min-width: 2560px) {
+          font-size: 22px;
+        }
       }
     }
-  
+
+    &__green {
+      color: #A1CC4D;
+    }
+
+    &__orange {
+      color: orange;
+    }
+
+    &__black {
+      color: black;
+    }
+
+    &__blue {
+      color: #00B3E3;
+    }
+
+    &__purple {
+      color: #BF258C;
+    }
+
     &__heading {
       font-size: 14px;
       font-weight: 600;
       font-family: 'Bree Serif', serif;
-  
+
+      @media(min-width: 768px) {
+        font-size: 10px;
+      }
+
+      @media(min-width: 1024px) {
+        font-size: 14px;
+      }
+
       @media(min-width: 1440px) {
-        font-size: 23px
+        font-size: 16px
+      }
+
+      @media(min-width: 2560px) {
+        font-size: 26px;
       }
     }
-  
+
     button {
       border-radius: 4px;
       color: white;
-      background: #A1CC4D;
-      width: 109px;
-      height: 33px;
+      width: 80px;
+      height: 29px;
       border: 0px;
+      border-radius: 5px;
       text-transform: uppercase;
       letter-spacing: 1px;
       font-weight: 600;
+      font-size: 12px;
       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  
+
       @media(min-width:2560px) {
         width: 150px;
         height: 53px;
@@ -181,51 +272,44 @@
         letter-spacing: 1;
       }
     }
-  
-    &__green {
-      color: #A1CC4D;
+
+    &__text-section {
+      text-align: center;
+      line-height: 2;
+
+      p {
+        font-size: 10px;
+      }
     }
-  
-    &__orange {
-      color: orange;
-    }
-  
-    &__black {
-      color: black;
-    }
-  
-    &__blue {
-      color:#00B3E3;
-    }
-  
-    &__purple {
-      color: #BF258C;
-    }
-  
+
   }
 
-&__slider {
-    background: #00B3E3;
+  &__slider {
     padding: 50px;
+    background: url("/assets/images/hand-red.png") transparentize($color: white, $amount: 0.4);
+    background-size: 20vh;
+    background-repeat: no-repeat;
+    background-color: #00B3E3;
+    background-position: right;
 
     @media(min-width: 2560px) {
       padding: 6em 40em;
     }
-}
+  }
 
-&__info {
+  &__info {
     padding: 50px;
     font-family: 'Signika Negative', sans-serif;
     color: black;
 
-    p{
+    p {
       color: black;
       font-weight: 400;
     }
 
-    h1{
+    h1 {
       font-family: 'Bree Serif', serif;
     }
-}
+  }
 
 }

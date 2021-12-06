@@ -8,9 +8,9 @@ import { Component, OnInit, ViewChild } from '@angular/core';
 export class HomePageSliderComponent implements OnInit {
 
   defaultImage = '/assets/images/image-block.png';
-  slide01 = '/assets/images/slides/home/slide1.jpg';
-  slide02 = '/assets/images/slides/home/slide2.jpg';
-  slide03 = '/assets/images/slides/home/slide3.jpg';
+  slide01 = '/assets/images/gallery/gallery18.jpg';
+  slide02 = '/assets/images/gallery/gallery5.jpg';
+  slide03 = '/assets/images/gallery/gallery2.jpg';
 
   constructor() {
 

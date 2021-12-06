@@ -1,101 +1,103 @@
 .banner {
-    background-image: url("/assets/images/slide1.jpg");
+    background-image: url("/assets/images/banner/banner01.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 50vh;
     width: 100%;
 
     @media(min-width: 768px) {
-        height: 100vh;
+        height: 70vh;
     }
-
-    // svg{
-    //     height: 35vh;
-    //     z-index: 2;
-    //     position: absolute;
-    // }
-    // &__text {
-    //     z-index: 4;
-    //     position: relative;
-    //     padding: 70px;
-
-    // }
-
-    // &__content {
-    //     padding: 19vw 106vh;
-    // }
 }
 
 .about-us {
 
-    padding-top: 13em;
+    padding-top: 0.5em;
 
-@media(min-width: 768px) {
-    padding-top: 2em;
-}
+    @media(min-width: 768px) {
+      padding-top: 0em;
+    }
+  
+    @media(min-width: 2560px) {
+      padding-top: 4em;
+    }
 
-    &__header{
-        text-align: center;
-        padding: 50px 0px 50px;
-        font-family: 'Bree Serif', serif;
-    
-        @media(min-width: 768px) {
-            padding: 5em 0em 0em;
-        }
-      }
-    
-      &__color-one {
-        padding: 5px;
-        color: #A1CC4D;
-        padding-right: 0.3em;
-    
-        @media(min-width: 768px) {
-            font-size: 40px;
-        }
-    
-        @media(min-width: 1440px) {
-            font-size: 60px;
-        }
-    
-        @media(min-width: 2560px) {
-         font-size: 110px;   
-         padding-right: 0.3em;
-        }
-      }
-    
-      &__color-two {
-        color: #BF258C;
-    
-        @media(min-width: 768px) {
-            font-size: 40px;
-        }
-    
-        @media(min-width: 1440px) {
-            font-size: 60px;
-        }
-    
-        @media(min-width: 2560px) {
-          font-size: 110px;
-        }
-      }
+   &__header {
+    text-align: center;
+    padding: 1em;
+    line-height: 45px;
+    font-family: 'Bree Serif', serif;
+    font-size: 28px;
+
+    @media(min-width: 768px) {
+      padding: 3em 0em 0em;
+    }
+  }
+
+  &__color-one {
+    padding: 5px;
+    color: #A1CC4D;
+    padding-right: 0.3em;
+    font-size: 20px;
+
+    @media(min-width: 768px) {
+      font-size: 30px;
+    }
+
+    @media(min-width: 1440px) {
+      font-size: 40px;
+    }
+
+    @media(min-width: 2560px) {
+      font-size: 50px;
+      padding-right: 0.3em;
+    }
+  }
+
+  &__color-two {
+    color: #BF258C;
+    font-size: 20px;
+
+    @media(min-width: 768px) {
+      font-size: 30px;
+    }
+
+    @media(min-width: 1440px) {
+      font-size: 40px;
+    }
+
+    @media(min-width: 2560px) {
+      font-size: 50px;
+    }
+  }
 
 &__info {
 font-size: 18px;
 line-height: 2;
 padding: 40px;
 
+background: url("/assets/images/hand-blue.png") transparentize($color: white, $amount: 0.2);
+background-size: 35vh;
+background-repeat: no-repeat;
+background-blend-mode: lighten;
+background-position: right;
 
 p{
-    font-size: 23px;
+    font-size: 17px;
 }
 }
 
 &__heading {
-font-size: 32px;
-padding: 12px 0px;
-font-weight: 600;
-letter-spacing: 2px;
-}
+    text-align: center;
+    padding: 1em;
+    line-height: 45px;
+    font-family: 'Bree Serif', serif;
+    font-size: 28px;
+
+    @media(min-width: 768px) {
+      padding: 3em 0em 0em;
+    }
+  }
 
 
 }

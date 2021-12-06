@@ -26,34 +26,36 @@ padding-top: 2em;
     padding: 5px;
     color: #A1CC4D;
     padding-right: 0.3em;
+    font-size: 20px;
 
     @media(min-width: 768px) {
-        font-size: 40px;
+      font-size: 30px;
     }
 
     @media(min-width: 1440px) {
-        font-size: 60px;
+      font-size: 40px;
     }
 
     @media(min-width: 2560px) {
-     font-size: 110px;   
-     padding-right: 0.3em;
+      font-size: 50px;
+      padding-right: 0.3em;
     }
   }
 
   &__color-two {
     color: #BF258C;
+    font-size: 20px;
 
     @media(min-width: 768px) {
-        font-size: 40px;
+      font-size: 30px;
     }
 
     @media(min-width: 1440px) {
-        font-size: 60px;
+      font-size: 40px;
     }
 
     @media(min-width: 2560px) {
-      font-size: 110px;
+      font-size: 50px;
     }
   }
 
