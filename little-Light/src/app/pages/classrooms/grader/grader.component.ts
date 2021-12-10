@@ -28,21 +28,34 @@ imageObject: Array<object> = [{
 }, {
   image: '/assets/images/gallery/gallery20.jpg',
   thumbImage: '/assets/images/gallery/gallery20.jpg'
+},{
+  image: '/assets/images/gallery/gallery23.jpg',
+  thumbImage: '/assets/images/gallery/gallery23.jpg'
 }, {
   image: '/assets/images/gallery/gallery19.jpg',
   thumbImage: '/assets/images/gallery/gallery19.jpg'
 }, {
   image: '/assets/images/gallery/galleryt18.jpg',
   thumbImage: '/assets/images/gallery/gallery18.jpg'
+},{
+  image: '/assets/images/gallery/gallery24.jpg',
+  thumbImage: '/assets/images/gallery/gallery24.jpg'
 }, {
   image: '/assets/images/gallery/gallery17.jpg',
   thumbImage: '/assets/images/gallery/gallery17.jpg'
-}, {
+}, 
+{
+  image: '/assets/images/gallery/gallery26.jpg',
+  thumbImage: '/assets/images/gallery/gallery26.jpg'
+},{
   image: '/assets/images/gallery/gallery16.jpg',
   thumbImage: '/assets/images/gallery/gallery16.jpg'
 }, {
   image: '/assets/images/gallery/gallery15.jpg',
   thumbImage: '/assets/images/gallery/gallery15.jpg'
+},{
+  image: '/assets/images/gallery/gallery25.jpg',
+  thumbImage: '/assets/images/gallery/gallery25.jpg'
 }
 ];
 

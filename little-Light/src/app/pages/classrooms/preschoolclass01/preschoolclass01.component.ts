@@ -37,6 +37,10 @@ imageObject: Array<object> = [{
 }, {
   image: '/assets/images/gallery/gallery15.jpg',
   thumbImage: '/assets/images/gallery/gallery15.jpg'
+},
+{
+  image: '/assets/images/gallery/gallery27.jpg',
+  thumbImage: '/assets/images/gallery/gallery27.jpg'
 }, {
   image: '/assets/images/gallery/gallery14.jpg',
   thumbImage: '/assets/images/gallery/gallery14.jpg'
