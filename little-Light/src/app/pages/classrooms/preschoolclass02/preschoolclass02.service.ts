@@ -7,7 +7,7 @@ import { HttpClient } from '@angular/common/http';
 export class Preschoolclass02Service {
 
   private _ctaUrl: string = "/assets/data/pages/home-page/cta.json";
-  private _overviewUrl: string ="/assets/data/pages/home-page/overview.json";
+  private _overviewUrl: string ="/assets/data/pages/classrooms/preschoolclass02/overview.json";
 
   constructor(private http: HttpClient) { }
   getCtaData() {

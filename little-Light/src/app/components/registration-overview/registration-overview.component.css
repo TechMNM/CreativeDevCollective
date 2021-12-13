@@ -35,9 +35,14 @@ z-index: 0;
 }
 
 .paragraph {
-    padding: 50px 15px;
-    font-size: 23px;
-    line-height: 1.5;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 2;
+}
+
+ul {
+    padding: 1.5rem 3rem;
 }
 
 img {
@@ -94,9 +99,9 @@ img {
     }
 
     .paragraph {
-        /* padding: 50px 70px; */
-        padding: 15px 37px;
-        font-size: 15px;
+    padding: 0em 2.7em;
+      max-width: 74vw;
+      font-size: 12px;
     }
 
     svg{
@@ -126,9 +131,37 @@ img {
     }
 
     .paragraph {
-        /* padding: 50px 70px; */
-        padding: 15px 37px;
-        font-size: 20px;
+        font-size: 15px;
+    }
+
+    svg{
+    min-width: 29vw;
+    min-height: 56vh;
+    }
+/* 
+    img {
+        height: 100%;
+        width: 100%;
+    } */
+}
+
+@media(min-width:1280px) {
+    .content {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .overview-card {
+        padding: 80px 120px;
+        padding: 80px 32px;
+    }
+
+    .heading {
+        font-size: 50px;
+    }
+
+    .paragraph {
+        font-size: 15px;
     }
 
     svg{
@@ -158,9 +191,9 @@ img {
     }
 
     .paragraph {
-        /* padding: 50px 70px; */
-        padding: 15px 37px;
-        font-size: 28px;
+        padding: 0em 2em;
+        font-size: 27px;
+        line-height: 2;
     }
 
     svg{
@@ -181,8 +214,7 @@ img {
     }
 
     .overview-card {
-        /* padding: 80px 120px; */
-        /* padding: 80px 32px;  */
+
     }
 
     .heading {
@@ -190,9 +222,8 @@ img {
     }
 
     .paragraph {
-        /* padding: 50px 70px; */
-        padding: 15px 37px;
-        font-size: 50px;
+        font-size: 43px;
+        max-width: 54vw;
     }
 
     svg{
@@ -210,3 +241,5 @@ img {
         flex-direction: row;
     }
 }
+
+
