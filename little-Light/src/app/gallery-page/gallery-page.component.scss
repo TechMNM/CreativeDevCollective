@@ -1,12 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
-}
+/* The hero image */
+.hero-image {
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/images/gallery/banner.jpg");
+height: 70vh;
+width: 100%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+@media(min-width: 768px) {
 
+}
+}
 .container{
   display: flex;
   flex-direction: column;
@@ -14,6 +20,9 @@
   align-items: center;
   text-align: center;
   margin: 40px 20px 0 318px;
+  @media(max-width: 768px) {
+    margin: 40px 20px 0 0;
+  }
 }
 
 .container .heading{
@@ -39,29 +48,17 @@
 .container .box .dream{
   display: flex;
   flex-direction: column;
-  width: 32.5%;
+  width: 100%;
 }
 
 .container .box .dream img{
   width: 100%;
   padding-bottom: 15px;
   border-radius: 5px;
+  @media (max-width: 796px) {
+    position: relative;
+  }
 }
-
-/* .container .btn{
-  margin: 40px 0 70px 0;
-  background: #222;
-  padding: 15px 40px ;
-  border-radius: 5px;
-}
-
-.container .btn a{
- color: #fff;
- font-size: 1.2em;
- text-decoration: none;
- font-weight: bolder;
- letter-spacing: 3px;
-} */
 
 @media only screen and (max-width: 769px){
 .container .box{
@@ -82,3 +79,20 @@
 }
 
 }
+
+// .row {
+//   display: flex;
+//   flex-wrap: wrap;
+//   padding: 0 4px;
+// }
+
+// /* Create two equal columns that sits next to each other */
+// .column {
+//   flex: 50%;
+//   padding: 0 4px;
+// }
+
+// .column img {
+//   margin-top: 8px;
+//   vertical-align: middle;
+// }
