@@ -26,9 +26,9 @@ const appRoutes: Routes = [
     { path: 'preschool02', component: Preschoolclass02Component},
     { path: 'graderr', component: GraderrComponent},
     { path: 'grader', component: GraderComponent},
-    // { path: 'contact', component: ContactComponent}
-    // { path: 'gallery', component: GalleryPageComponent},
-    // { path: 'contact', component: FormPageComponent},
+    { path: 'contact', component: ContactComponent},
+    { path: 'gallery', component: GalleryPageComponent},
+    // { path: 'contact-us', component: FormPageComponent}
 
 ]
 
