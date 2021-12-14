@@ -52,6 +52,10 @@
     &__details {
         display: flex;
         flex-direction: column;
+        padding: 7px 0px 8px 36px;
+      //   .contact__details {
+      //     padding: 7px 0px 8px 36px;
+      // }
 
         @media(min-width: 768px) {
             flex-direction: row;
@@ -117,4 +121,8 @@ form .button input:hover {
     .container .content .category{
       flex-direction: column;
     }   
+}
+.contact__text {
+  padding-bottom: 44px;
+  padding: 7px 0px 23px 36px;
 }
