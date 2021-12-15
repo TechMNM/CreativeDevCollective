@@ -23,10 +23,12 @@ position: relative;
   @media(max-width: 768px) {
     margin: 40px 20px 0 0;
   }
-  @media(max-width: 1024) {
-    margin: 40px 20px 0 62px;
-  }
-      
+  // @media(min-width: 1024px) {
+  //   margin: 40px 20px 0 62px;
+  // }
+  // @media(min-width: 2560) {
+  //   margin: 40px 20px 0 318px;
+  // }
 }
 
 .container .heading{
@@ -56,8 +58,9 @@ position: relative;
 
 .container .box .dream img{
   width: 100%;
-  padding-bottom: 15px;
+  padding: 0px 17px 21px 0px;
   @media (max-width: 796px) {
+    padding: 0px 17px 21px 0px;
     position: relative;
     width: 109%;
   }
