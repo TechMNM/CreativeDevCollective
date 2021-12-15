@@ -53,6 +53,7 @@
         display: flex;
         flex-direction: column;
         padding: 7px 0px 8px 36px;
+        letter-spacing: 2px;
       //   .contact__details {
       //     padding: 7px 0px 8px 36px;
       // }
@@ -124,5 +125,41 @@ form .button input:hover {
 }
 .contact__text {
   padding-bottom: 44px;
-  padding: 7px 0px 23px 36px;
+  padding: 30px 0px 42px 36px;
+  font-size: 20px;
+}
+.color-one {
+  // padding: 5px;
+  color: #A1CC4D;
+  // padding-right: 0.3em;
+  // font-size: 20px;
+
+  // @media(min-width: 768px) {
+  //   font-size: 30px;
+  // }
+
+  // @media(min-width: 1440px) {
+  //   font-size: 40px;
+  // }
+
+  // @media(min-width: 2560px) {
+  //   font-size: 50px;
+  //   padding-right: 0.3em;
+  // }
+}
+
+.color-two {
+  color: #BF258C;
+
+  // @media(min-width: 768px) {
+  //   font-size: 30px;
+  // }
+
+  // @media(min-width: 1440px) {
+  //   font-size: 40px;
+  // }
+
+  // @media(min-width: 2560px) {
+  //   font-size: 50px;
+  // }
 }
