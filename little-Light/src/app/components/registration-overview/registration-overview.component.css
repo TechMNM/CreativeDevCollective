@@ -42,7 +42,7 @@ z-index: 0;
 }
 
 ul {
-    padding: 1.5rem 3rem;
+    margin: 1.5rem 0rem;
 }
 
 img {
@@ -89,6 +89,13 @@ img {
         flex-direction: row;
     }
 
+    img {
+        max-width: 288px;
+        max-height: 340px;
+        min-width: auto;
+        min-height: auto;
+    }
+
     .overview-card {
         /* padding: 80px 120px; */
         padding: 80px 32px;
@@ -107,6 +114,10 @@ img {
     svg{
     min-width: 29vw;
     min-height: 56vh;
+    }
+
+    ul {
+        margin: 1.5rem 3rem;
     }
 /* 
     img {
@@ -138,11 +149,18 @@ img {
     min-width: 29vw;
     min-height: 56vh;
     }
-/* 
+    
+    .button-section {
+        padding: 0em 1em;
+    }
+
     img {
-        height: 100%;
-        width: 100%;
-    } */
+    max-width: 308px;
+    max-height: 340px;
+    min-width: auto;
+    min-height: auto;
+    margin-top: 6em;
+    }
 }
 
 @media(min-width:1280px) {
@@ -168,11 +186,14 @@ img {
     min-width: 29vw;
     min-height: 56vh;
     }
-/* 
+
+    .button-section {
+        margin: 0em 5em;
+    }
+
     img {
-        height: 100%;
-        width: 100%;
-    } */
+        max-width: 469px;
+    }
 }
 
 @media(min-width:1440px) {
@@ -202,8 +223,12 @@ img {
     }
 
     img {
-    min-width: 474px;
-    min-height: 501px;
+    min-width: 471px;
+    min-height: 368px;
+    }
+
+    .button-section {
+        margin: 0em 5em;
     }
 }
 
@@ -233,12 +258,13 @@ img {
 
     img {
     min-width: 807px;
-    min-height: 860px;
+    min-height: 683px;
     }
 
     .button-section {
         display: flex;
         flex-direction: row;
+        margin: 0em 5em;
     }
 }
 

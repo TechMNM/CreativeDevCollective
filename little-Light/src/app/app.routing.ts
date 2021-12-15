@@ -27,8 +27,8 @@ const appRoutes: Routes = [
     { path: 'graderr', component: GraderrComponent},
     { path: 'grader', component: GraderComponent},
     { path: 'contact', component: ContactComponent},
-    // { path: 'gallery', component: GalleryPageComponent},
-    // { path: 'contact-us', component: FormPageComponent}
+    { path: 'gallery', component: GalleryPageComponent},
+    { path: 'contact-us', component: FormPageComponent}
 
 ]
 
